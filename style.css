@@ -1,0 +1,108 @@
+/**
+ * Theme Name: Storefront Rättargården
+ * Template:   storefront
+ */
+.home.post-type-archive-product .site-header {
+  margin-bottom: 0;
+}
+
+.site-header .site-branding img {
+  max-width: 400px;
+}
+
+.site-branding {
+  margin-bottom: 0;
+}
+
+.site-content {
+  margin-top: 20px;
+}
+
+body,
+button,
+input,
+textarea {
+  color: #43454b;
+  font-family: "Libre Baskerville";
+  line-height: 1.618;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+h2.wp-block-heading {
+  text-align: center;
+}
+
+.widget h2.wp-block-heading {
+  text-align: left;
+}
+
+.widget {
+  margin: 0
+}
+
+.footer-widgets {
+  padding-top: 1em;
+}
+
+.primary-navigation {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wc-block-grid__products .wc-block-grid__product img {
+  margin-bottom: 0;
+}
+
+.wc-block-grid__product-image {
+  margin-bottom: 0;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+  font-size: 1.4em;
+}
+
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
+  text-transform: uppercase;
+}
+
+.hentry .entry-content a {
+  text-decoration: none;
+}
+
+.wc-block-components-button {
+  text-transform: uppercase;
+}
+
+.wc-block-grid__product-link p,
+.wc-block-grid__product p {
+  margin: 0;
+  height: 0;
+}
+
+.wc-block-grid__products .wc-block-grid__product .amount {
+  font-size: 1.3em;
+}
+
+.wc-block-grid__products .wc-block-grid__product {
+  margin-bottom: 1em;
+}
+
+.main-navigation ul.nav-menu>li.menu-item-has-children>a::after {
+  content: none;
+}
+
+.sub-menu {
+  border: 1px solid gray;
+  font-weight: bold;
+}
+
+.widget_nav_menu ul li::before {
+  content: none;
+}
+
+.widget_nav_menu ul li {
+  padding-left: 0;
+  margin-bottom: 0;
+}
